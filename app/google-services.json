@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "496924010098",
+    "firebase_url": "https://radni-nalozi-871e9.firebaseio.com",
+    "project_id": "radni-nalozi-871e9",
+    "storage_bucket": "radni-nalozi-871e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496924010098:android:59d5f021d040aea1",
+        "android_client_info": {
+          "package_name": "com.domain.owner.radninalozifinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496924010098-or3kvchis2hhn9adcoiuiobd1995c0k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYKzm_g5ybJxoXrbJdFApDNCKYwu3K7Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496924010098-or3kvchis2hhn9adcoiuiobd1995c0k4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

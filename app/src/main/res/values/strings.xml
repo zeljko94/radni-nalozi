@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Radni nalozi</string>
+    <string-array name="spinnerRoles">
+        <item>Admin</item>
+        <item>Radnik</item>
+    </string-array>
+</resources>

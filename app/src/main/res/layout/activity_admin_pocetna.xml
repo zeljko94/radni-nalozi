@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminPocetnaActivity">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimaryDark">
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Administracija"
+                android:textAlignment="textStart"
+                android:textSize="45dp"
+                android:textColor="@color/colorText"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dashboard"
+                android:textAlignment="textStart"
+                android:textSize="25dp"
+                android:textColor="@color/colorText"/>
+
+
+        </LinearLayout>
+
+
+        <!--
+        <ImageButton
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/user_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            style="?android:attr/actionOverflowButtonStyle"/>
+        -->
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnKorisnici"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/korisnici"
+                android:text="Dolazak" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnRadniNalozi"
+                android:layout_width="wrap_content"
+                android:layout_height="314dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/radninalozi"
+                android:text="Dolazak" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btnKlijenti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/klijenti"
+                android:text="PAUZA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btnMaterijali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/materijali"
+                android:text="KRAJ PAUZE" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
